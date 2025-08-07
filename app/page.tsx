@@ -43,7 +43,7 @@ export default function VisagismoLanding() {
             <Button
               asChild
               size="lg"
-              className="w-full sm:w-auto bg-[#5C5048] hover:bg-[#5C5048]/90 text-white px-6 sm:px-8 py-4 text-base sm:text-lg font-semibold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300 min-h-[56px]"
+              className="w-full sm:w-auto bg-[#5C5048] hover:bg-[#5C5048]/90 text-white px-4 sm:px-6 lg:px-8 py-4 text-sm sm:text-base lg:text-lg font-semibold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300 min-h-[56px] text-center break-words"
             >
               <Link href={checkoutUrl}>QUERO APRENDER VISAGISMO!</Link>
             </Button>
@@ -189,7 +189,7 @@ export default function VisagismoLanding() {
               <Button
                 asChild
                 size="lg"
-                className="w-full sm:w-auto bg-[#5C5048] hover:bg-[#5C5048]/90 text-white px-6 sm:px-8 py-4 text-base sm:text-lg font-semibold rounded-full min-h-[56px]"
+                className="w-full sm:w-auto bg-[#5C5048] hover:bg-[#5C5048]/90 text-white px-4 sm:px-6 lg:px-8 py-4 text-sm sm:text-base lg:text-lg font-semibold rounded-full min-h-[56px] text-center break-words"
               >
                 <Link href={checkoutUrl}>QUERO APRENDER MAIS SOBRE VISAGISMO!</Link>
               </Button>
@@ -471,7 +471,7 @@ export default function VisagismoLanding() {
                 <Button
                   asChild
                   size="lg"
-                  className="w-full sm:w-auto bg-[#5C5048] hover:bg-[#5C5048]/90 text-white px-6 sm:px-8 py-4 text-base sm:text-lg font-semibold rounded-full min-h-[56px]"
+                  className="w-full sm:w-auto bg-[#5C5048] hover:bg-[#5C5048]/90 text-white px-4 sm:px-6 lg:px-8 py-4 text-sm sm:text-base lg:text-lg font-semibold rounded-full min-h-[56px] text-center break-words"
                 >
                   <Link href={checkoutUrl}>QUERO ELEVAR MEU NÍVEL PROFISSIONAL!</Link>
                 </Button>
@@ -567,7 +567,7 @@ export default function VisagismoLanding() {
                     <Button
                       asChild
                       size="lg"
-                      className="w-full bg-[#5C5048] text-white hover:bg-[#5C5048]/90 px-6 sm:px-8 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300 mb-3 sm:mb-4 min-h-[56px]"
+                      className="w-full bg-[#5C5048] text-white hover:bg-[#5C5048]/90 px-4 sm:px-6 lg:px-8 py-4 sm:py-6 text-sm sm:text-lg lg:text-xl font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300 mb-3 sm:mb-4 min-h-[56px] text-center break-words"
                     >
                       <Link href={checkoutUrl}>GARANTIR MINHA VAGA AGORA</Link>
                     </Button>
@@ -721,7 +721,7 @@ export default function VisagismoLanding() {
                   <Button
                     asChild
                     size="lg"
-                    className="w-full sm:w-auto bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-6 sm:px-10 py-4 text-base sm:text-lg font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300 min-h-[56px]"
+                    className="w-full sm:w-auto bg-gradient-to-r from-green-600 to-emerald-600 hover:from-green-700 hover:to-emerald-700 text-white px-4 sm:px-6 lg:px-10 py-4 text-sm sm:text-base lg:text-lg font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300 min-h-[56px] text-center break-words"
                   >
                     <Link href={checkoutUrl}>GARANTIR MINHA VAGA SEM RISCOS!</Link>
                   </Button>
@@ -809,7 +809,7 @@ export default function VisagismoLanding() {
                 </p>
                 <Button
                   asChild
-                  className="w-full sm:w-auto bg-gradient-to-r from-[#5C5048] to-[#90857D] hover:from-[#5C5048]/90 hover:to-[#90857D]/90 text-white px-6 sm:px-8 py-3 rounded-full font-semibold min-h-[48px]"
+                  className="w-full sm:w-auto bg-gradient-to-r from-[#5C5048] to-[#90857D] hover:from-[#5C5048]/90 hover:to-[#90857D]/90 text-white px-4 sm:px-6 lg:px-8 py-3 text-sm sm:text-base font-semibold rounded-full min-h-[48px] text-center break-words"
                 >
                   <Link href={checkoutUrl}>ESCLARECER DÚVIDAS E GARANTIR VAGA</Link>
                 </Button>
@@ -830,7 +830,7 @@ export default function VisagismoLanding() {
             <Button
               asChild
               size="lg"
-              className="w-full sm:w-auto bg-white text-[#5C5048] hover:bg-gray-100 px-8 sm:px-12 py-4 sm:py-6 text-lg sm:text-xl font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300 mb-6 sm:mb-8 min-h-[56px]"
+              className="w-full sm:w-auto bg-white text-[#5C5048] hover:bg-gray-100 px-4 sm:px-6 lg:px-12 py-4 sm:py-6 text-sm sm:text-lg lg:text-xl font-bold rounded-full shadow-2xl transform hover:scale-105 transition-all duration-300 mb-6 sm:mb-8 min-h-[56px] text-center break-words"
             >
               <Link href={checkoutUrl}>QUERO TRANSFORMAR MINHA CARREIRA!</Link>
             </Button>
