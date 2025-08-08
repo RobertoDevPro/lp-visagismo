@@ -638,7 +638,7 @@ export default function VisagismoLanding() {
                       <div className="text-4xl sm:text-6xl font-bold mb-2 text-[#5C5048]">12x</div>
                       <div className="text-2xl sm:text-4xl font-bold mb-3 sm:mb-4 text-[#5C5048]">R$ 10,03</div>
                       <div className="text-lg sm:text-2xl font-semibold bg-[#5C5048]/20 rounded-full px-4 sm:px-6 py-2 inline-block text-[#5C5048]">
-                        ou R$ 120,00 à vista
+                        ou R$ 97,00 à vista
                       </div>
                     </div>
 
