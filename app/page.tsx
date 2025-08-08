@@ -20,7 +20,14 @@ export default function VisagismoLanding() {
             src="/images/hero-image.png"
             alt="Formação Visagista - Aliny Cruz"
             fill
-            className="object-cover object-center"
+            className="object-cover object-center hidden sm:block"
+            priority
+          />
+          <Image
+            src="/images/heromobile.png"
+            alt="Formação Visagista - Aliny Cruz"
+            fill
+            className="object-cover object-center sm:hidden"
             priority
           />
         </div>
@@ -481,6 +488,77 @@ export default function VisagismoLanding() {
         </div>
       </section>
 
+      {/* Makeup Showcase Section */}
+      <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-[#F7F5F2] to-[#EADCD2]">
+        <div className="container mx-auto px-4">
+          <div className="max-w-6xl mx-auto">
+            <div className="text-center mb-8 sm:mb-12">
+              <h2 className="text-2xl sm:text-3xl lg:text-4xl font-bold mb-4 sm:mb-6 text-transparent bg-clip-text bg-gradient-to-r from-[#5C5048] via-[#90857D] to-[#D6BFAF] px-4">
+                ✨ Transformações Reais
+              </h2>
+              <p className="text-base sm:text-lg lg:text-xl text-gray-600 max-w-3xl mx-auto px-4">
+                Veja o poder do visagismo em ação através dos trabalhos da Aliny Cruz
+              </p>
+            </div>
+
+            <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 sm:gap-12 items-center">
+              <div className="relative">
+                <Image
+                  src="/images/make.JPG"
+                  alt="Trabalho de maquiagem visagista - Aliny Cruz"
+                  width={600}
+                  height={800}
+                  className="rounded-2xl shadow-2xl w-full h-auto"
+                />
+                <div className="absolute -top-4 -left-4 sm:-top-6 sm:-left-6 bg-[#5C5048] text-white p-3 sm:p-4 rounded-full shadow-xl">
+                  <Crown className="w-6 h-6 sm:w-8 sm:h-8" />
+                </div>
+              </div>
+
+              <div className="space-y-6 sm:space-y-8">
+                <div className="bg-white rounded-2xl p-6 sm:p-8 shadow-xl">
+                  <h3 className="text-xl sm:text-2xl font-bold mb-4 sm:mb-6 text-[#5C5048]">
+                    🎨 Visagismo na Prática
+                  </h3>
+                  <p className="text-base sm:text-lg text-gray-600 leading-relaxed mb-4 sm:mb-6">
+                    Cada maquiagem é única e personalizada. O visagismo permite que você analise as características 
+                    individuais da cliente e crie uma transformação que valorize sua essência natural.
+                  </p>
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 sm:gap-4">
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-green-600 flex-shrink-0" />
+                      <span className="text-sm sm:text-base">Análise personalizada</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-green-600 flex-shrink-0" />
+                      <span className="text-sm sm:text-base">Técnicas avançadas</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-green-600 flex-shrink-0" />
+                      <span className="text-sm sm:text-base">Resultados únicos</span>
+                    </div>
+                    <div className="flex items-center gap-2">
+                      <CheckCircle className="w-4 h-4 sm:w-5 sm:h-5 text-green-600 flex-shrink-0" />
+                      <span className="text-sm sm:text-base">Valorização profissional</span>
+                    </div>
+                  </div>
+                </div>
+
+                <div className="text-center">
+                  <Button
+                    asChild
+                    size="lg"
+                    className="w-full sm:w-auto bg-[#5C5048] hover:bg-[#5C5048]/90 text-white px-4 sm:px-6 lg:px-8 py-4 text-sm sm:text-base lg:text-lg font-semibold rounded-full min-h-[56px] text-center break-words"
+                  >
+                    <Link href={checkoutUrl}>QUERO APRENDER ESSAS TÉCNICAS!</Link>
+                  </Button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Enhanced Offer Section */}
       <section className="py-12 sm:py-16 lg:py-20 bg-gradient-to-br from-[#5C5048] via-[#90857D] to-[#D6BFAF] text-white relative overflow-hidden">
         {/* Background decorative elements */}
@@ -558,9 +636,9 @@ export default function VisagismoLanding() {
                     <div className="mb-4 sm:mb-6">
                       <div className="text-base sm:text-lg text-[#5C5048]/70 line-through mb-2">De R$ 447,00</div>
                       <div className="text-4xl sm:text-6xl font-bold mb-2 text-[#5C5048]">12x</div>
-                      <div className="text-2xl sm:text-4xl font-bold mb-3 sm:mb-4 text-[#5C5048]">R$ 6,20</div>
+                      <div className="text-2xl sm:text-4xl font-bold mb-3 sm:mb-4 text-[#5C5048]">R$ 10,03</div>
                       <div className="text-lg sm:text-2xl font-semibold bg-[#5C5048]/20 rounded-full px-4 sm:px-6 py-2 inline-block text-[#5C5048]">
-                        ou R$ 97,00 à vista
+                        ou R$ 120,00 à vista
                       </div>
                     </div>
 
@@ -764,12 +842,7 @@ export default function VisagismoLanding() {
                     "Absolutamente! A Aliny Cruz descomplica o visagismo, transformando conceitos complexos em aplicações práticas e didáticas para o seu trabalho com maquiagem. Você aprenderá a analisar e personalizar de forma intuitiva, para que cada atendimento seja único e valorizado.",
                   icon: <Sparkles className="w-5 h-5 sm:w-6 sm:h-6" />,
                 },
-                {
-                  question: "Vou conseguir de fato aumentar meu faturamento e cobrar mais pelos meus atendimentos?",
-                  answer:
-                    "Sim, esse é um dos pilares do curso. Você aprenderá estratégias claras de precificação e posicionamento que a permitirão justificar valores mais altos. Muitas alunas da Aliny já conseguiram sair de atendimentos de R$150 para R$300 a R$800, sem depender de volume.",
-                  icon: <Zap className="w-5 h-5 sm:w-6 sm:h-6" />,
-                },
+
                 {
                   question: "Quanto tempo preciso dedicar para ver os resultados e como funciona o acesso online?",
                   answer:
